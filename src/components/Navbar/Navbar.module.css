@@ -1,0 +1,55 @@
+/* styles.module.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap'); */
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.accessibilityButtons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.button1 {
+  /* padding: 8px 12px; */
+  background-color: #0b2a31;
+  border: none;
+  cursor: pointer;
+  color: #86d8ea;
+  font-family: "Manrope", sans-serif;
+}
+
+.button2 {
+  background-color: #0b2a31;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+.button3 {
+  border-radius: 1rem;
+  border: none;
+  background-color: #fff;
+  color: #0b2a31;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+

@@ -1,0 +1,12 @@
+.root {
+  width: 100vw;
+  height: 62.5rem;
+  padding: 2.5rem;
+}
+
+.innerRoot {
+  border-radius: 1.5rem;
+  background: #0b2a31;
+  width: 100%;
+  height: 100%;
+}
