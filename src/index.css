@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
 :root {
   font-family: "Manrope", sans-serif;
 }
@@ -16,4 +18,16 @@ h2 {
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 130%; /* 3.25rem */
+  font-family: Manrope;
+  text-align: center;
+  font-style: normal;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
 }

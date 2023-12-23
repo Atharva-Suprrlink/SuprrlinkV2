@@ -1,0 +1,152 @@
+.root {
+  display: flex;
+  padding: 7.5rem 16.625rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title p {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem 2.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--neutral-300, #d0d5dd);
+  background: #fff;
+  box-shadow: 10px 10px 90px -28px rgba(134, 216, 234, 1);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* width: 50%; */
+}
+
+.leftTitle {
+  display: flex;
+  /* padding: 2.5rem 2.5rem 1.5rem 2.5rem; */
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.leftTitle h3 {
+  color: #080808;
+  font-family: Manrope;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 100% */
+  letter-spacing: 0.00625rem;
+}
+
+.leftTitle p {
+  color: var(--Text-Base-Secondary, #576175);
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 171.429% */
+  letter-spacing: 0.00625rem;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.form {
+  padding: 0.75rem 0rem 0.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* width: 100%; */
+}
+
+.categories {
+  width: 108%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e1e5ea;
+  background: #fff;
+  background-image: url(../svgs/DownArrow.svg);
+  background-position: right 8px center;
+  background-repeat: no-repeat;
+  appearance: none;
+  color: #000;
+  cursor: pointer;
+
+  /* Paragraph/Medium/Body3 */
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 171.429% */
+  letter-spacing: 0.00625rem;
+}
+.inputContainer input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e1e5ea;
+  background: #fff;
+  color: #000;
+
+  /* Paragraph/Medium/Body3 */
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 171.429% */
+  letter-spacing: 0.00625rem;
+}
+
+.buttonContainer button {
+  border-radius: 0.75rem;
+  border: 1px solid #0b2a31;
+  background: #0b2a31;
+  width: 40%;
+  cursor: pointer;
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--White, #fff);
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+}
