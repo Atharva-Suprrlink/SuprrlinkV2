@@ -113,6 +113,7 @@
 
 .footerTextRight a {
     color: #FFF;
+    text-decoration: none;
     font-family: Manrope;
     font-size: 1rem;
     font-style: normal;
