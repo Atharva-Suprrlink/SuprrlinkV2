@@ -1,0 +1,83 @@
+.root {
+  padding: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  max-width: 100rem;
+  border-radius: 1.5rem;
+  background: #0b2a31;
+  display: flex;
+}
+
+.left {
+  padding: 5rem 3rem 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.left h2 {
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+.left p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+}
+
+.inputContainer {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.inputContainer input {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid #39616a;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+
+.inputContainer button {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: #fff;
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #0b2a31;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+
+.right {
+  padding: 3rem 3rem 0rem 3rem;
+}
+
+.right img{
+  /* width: 100%; */
+  /* height: auto; */
+}

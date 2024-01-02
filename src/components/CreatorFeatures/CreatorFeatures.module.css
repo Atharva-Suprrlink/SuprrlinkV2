@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  width: 100%;
 }
 
 .upper {
@@ -13,7 +14,15 @@
 .upperLeft {
   border-radius: 1.5rem;
   background: #0b2a31;
-  width: 52rem;
+  /* width: 65%; */
+  flex: 2;
+  background-image: url(/Group7.png);
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
+.upperLeftContent{
+  width: 47%;
 }
 
 .content {
@@ -21,23 +30,60 @@
   padding: 2rem;
   flex-direction: column;
   gap: 0.5rem;
-  flex: 1;
 }
 
 .content h3 {
-  color: #fff;
+  color: #000;
   font-family: Manrope;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2rem; /* 133.333% */
 }
 
 .content p {
-  color: #fff;
+  color: #4d4d4d;
   font-family: Manrope;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem; /* 150% */
+}
+
+.upperRight {
+  border-radius: 1.5rem;
+  background: #f9f9f9;
+  flex: 1;
+  /* width: 30%; */
+}
+
+.lower {
+  display: flex;
+  gap: 1.5rem;
+  height: 24.625rem;
+}
+
+.lowerLeft {
+  border-radius: 1.5rem;
+  background: #f9f9f9;
+  flex: 1;
+
+  background-image: url(/man.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.lowerRight {
+  border-radius: 1.5rem;
+  background: #f9f9f9;
+  flex: 2;
+
+  /* background-image: url(/man.png);
+  background-repeat: no-repeat;
+  background-position: bottom; */
+}
+
+
+@media (max-width: 1300px){
+  .upperLeftContent{
+    width: 35%;
+  }
 }

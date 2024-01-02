@@ -1,0 +1,121 @@
+.root {
+  display: flex;
+  padding: 0rem 2.5rem 2.5rem 2.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.innerRoot {
+  display: flex;
+  padding: 4rem 4rem 3rem 4rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+  border-radius: 1.5rem;
+  background: #0b2a31;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.left {
+  display: flex;
+  max-width: 20rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.left p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+.right {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.rightColumn {
+  display: flex;
+  /* width: 9rem; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.columnContent {
+  display: flex;
+  /* width: 9rem; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.rightColumn p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.columnContent button {
+  color: #fff;
+  padding: 0;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 1.5rem; 150% */
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.footerText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.footerText p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+.footerTextRight {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.footerTextRight a {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+}

@@ -1,10 +1,13 @@
 .root {
+  /* width: 100vw; */
   background: #0b2a31;
   padding: 7.5rem 0rem 7.5rem 6rem;
+  margin-bottom: 4rem;
   display: flex;
-  gap: 2rem;
+  gap: 10rem;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .left {
@@ -53,6 +56,7 @@
   border-radius: 0.75rem;
   border: 1px solid #fff;
   background: #fff;
+  cursor: pointer;
 
   /* Shadow/xs */
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
@@ -73,6 +77,7 @@
   border-radius: 0.75rem;
   background-color: #0b2a31;
   border: none;
+  cursor: pointer;
 
   /* Shadow/xs */
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
@@ -87,4 +92,36 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.5rem; /* 150% */
+}
+
+.leftLower {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 3rem;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gridItem p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 1.4rem */
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right img {
+  box-shadow: 10px 10px 90px -28px rgba(134, 216, 234, 1);
+  border-radius: 2rem;
+  /* border: 16px solid #233f46; */
 }

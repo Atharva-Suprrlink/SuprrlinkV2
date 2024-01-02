@@ -1,12 +1,106 @@
 .root {
-  width: 100vw;
-  height: 62.5rem;
+  /* width: 100vw; */
+  /* height: 62.5rem; */
   padding: 2.5rem;
 }
 
 .innerRoot {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   border-radius: 1.5rem;
   background: #0b2a31;
   width: 100%;
   height: 100%;
+
+  background-image: url(/heroBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  width: 55%;
+  height: auto;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.94rem;
+  width: 60%;
+}
+
+.nameContainer h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%; /* 5.2rem */
+}
+
+.nameContainer p {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+}
+
+.buttonContainer {
+  display: flex;
+  padding-right: 1rem;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.button1 {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+}
+.button2 {
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  background: #fff;
+
+  color: #0b2a31;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+
+@media (min-width: 2000px){
+  .imageContainer img{
+    width: 40%;
+  }
 }

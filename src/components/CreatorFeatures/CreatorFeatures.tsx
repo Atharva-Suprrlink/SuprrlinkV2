@@ -5,45 +5,37 @@ const CreatorFeatures = () => {
     <div className={styles.root}>
       <div className={styles.upper}>
         <div className={styles.upperLeft}>
-          <div
-            style={{
-              display: "flex",
-            }}
-          >
-            <div className={styles.content}>
-              <h3>Only pay for a Unique Click</h3>
-              <p>
-                Suprrlink’s Pay per click feature enables you to only for the
-                unique click from your creator funnel
-              </p>
-            </div>
-            <div
-              style={{
-                // flex: "1",
-              }}
-            >
-              <div
-                style={{
-                  maxWidth: "100%", // Make sure the container doesn't exceed the width of its parent
-                  height: "auto", // Maintain the aspect ratio of the image
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img
-                  src="/Group7.png" // Replace with the actual image URL
-                  alt="Description of the image"
-                  style={{
-                    maxWidth: "100%", // Make sure the image doesn't exceed the width of its container
-                    height: "auto", // Maintain the aspect ratio of the image
-                  }}
-                />
-              </div>
-            </div>
+          <div className={`${styles.content} ${styles.upperLeftContent}`}>
+            <h3 style={{ color: "#fff" }}>Only pay for a Unique Click</h3>
+            <p style={{ color: "#fff" }}>
+              Suprrlink’s Pay per click feature enables you to only for the
+              unique click from your creator funnel
+            </p>
           </div>
         </div>
-        <div></div>
+
+        <div className={styles.upperRight}>
+          <div className={styles.content}>
+            <h3>Hyper targeted audience</h3>
+            <p>Something about the feature</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.lower}>
+        <div className={styles.lowerLeft}>
+          <div className={styles.content}>
+            <h3>Dedicated Relationship manager</h3>
+            <p>Something about the feature</p>
+          </div>
+        </div>
+
+        <div className={styles.lowerRight}>
+          <div className={styles.content}>
+            <h3>Hassle free content from multiple influencers</h3>
+            <p>Something about the feature</p>
+          </div>
+        </div>
       </div>
     </div>
   );

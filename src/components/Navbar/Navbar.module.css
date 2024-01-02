@@ -28,7 +28,7 @@
 
 .button1 {
   /* padding: 8px 12px; */
-  background-color: #0b2a31;
+  background-color: transparent;
   border: none;
   cursor: pointer;
   color: #86d8ea;
@@ -36,7 +36,7 @@
 }
 
 .button2 {
-  background-color: #0b2a31;
+  background-color: transparent;
   border: none;
   cursor: pointer;
   color: #fff;
@@ -48,6 +48,7 @@
   border: none;
   background-color: #fff;
   color: #0b2a31;
+  cursor: pointer;
   font-family: "Manrope", sans-serif;
   font-weight: bold;
   padding: 10px 10px;
